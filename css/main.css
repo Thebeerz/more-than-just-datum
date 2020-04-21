@@ -18,13 +18,16 @@ header {
   background-color: #fff;
 }
 
-table {
-  min-width: 45em;
+.icon {
+  left: .3rem;
 }
 
-@media only screen and (min-width: 60em) {
+ul {
+  background-color: #fff;
+}
 
-  .table-wrapper {
-    overflow: visible;
-  }
+div table {
+  min-width: 45em;
+  border-collapse: collapse;
+  background-color: #fff;
 }
